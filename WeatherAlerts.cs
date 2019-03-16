@@ -6,7 +6,6 @@ namespace WeatherAlerts
 
 	class ServiceNotifier
 	{
-		// list of emailservices, phoneservice, and smsservices -- all inclusive
 		private List<Service> Services = new List<Service>();
 
 		public void Attach(Service service) {
