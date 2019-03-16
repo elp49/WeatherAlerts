@@ -196,14 +196,6 @@ namespace WeatherAlerts
 		public void Notify(string message) {
 			Instance.Notify(message);
 		}
-
 	}
 
 }
-
-
-
-
-// AFTER ALL OF THIS IS FINISHED...
-//		--should i provide a way to distinguish between students, faculty, and staff?
-//		-- new class? Student : Person --and then pass Person as param?
